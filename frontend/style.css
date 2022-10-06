@@ -1,0 +1,81 @@
+/* --- start of CSS reset --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+  
+  /* --- end of CSS reset --- */
+
+.section1 {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 33.33%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: solid white 8px;
+}
+
+.cont1 {
+    background-color: rgb(38, 70, 83);
+}
+
+.cont2 {
+    background-color: rgb(233, 178, 40);
+}
+
+.cont3 {
+    background-color: rgb(42, 157, 143);
+}
+
+.container span {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.newStyle {
+    color: black !important; 
+    font-size: 80px !important;
+    transition: all 2s ease;
+}
