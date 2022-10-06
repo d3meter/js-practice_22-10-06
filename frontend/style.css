@@ -73,9 +73,3 @@
     font-family: 'Anton', sans-serif;
     color: white;
 }
-
-.newStyle {
-    color: black !important; 
-    font-size: 80px !important;
-    transition: all 2s ease;
-}
